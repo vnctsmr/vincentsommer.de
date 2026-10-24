@@ -1,0 +1,28 @@
+:root {
+  color-scheme: light;
+  --bg: #f3efe6;
+  --fg: #1d1b18;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  min-height: 100dvh;
+  margin: 0;
+  background: var(--bg);
+  color: var(--fg);
+}
+
+main {
+  margin: auto;
+  padding: 1.5rem;
+}
+
+h1 {
+  margin: 0;
+  font-family: ui-serif, "New York", Georgia, "Times New Roman", serif;
+  font-size: clamp(4rem, 18vw, 9rem);
+  font-weight: 400;
+  letter-spacing: -0.03em;
+  line-height: 1;
+}
